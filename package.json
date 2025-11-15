@@ -1,0 +1,33 @@
+{
+  "name": "@thibyx/oauth",
+  "version": "1.0.0",
+  "description": "Official NodeJS module for interacting with the Thibyx OAuth API",
+  "keywords": [
+    "thibyx",
+    "api",
+    "oauth"
+  ],
+  "homepage": "https://github.com/Thibyx/thibyx-oauth-client#readme",
+  "bugs": {
+    "url": "https://github.com/Thibyx/thibyx-oauth-client/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thibyx/thibyx-oauth-client.git"
+  },
+  "license": "MIT",
+  "author": "Thibyx",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.12.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.1",
+    "typescript": "^5.9.3"
+  }
+}
